@@ -1,0 +1,17 @@
+Tutorial para aprender como hacer que el usuario pueda interactuar con la consola.
+
+
+import java.util.Scanner;
+
+public class Hello {
+
+    public static void main(String[] args){
+
+        Scanner scanner = new Scanner(System.in);// Crea un objeto Scanner para leer la entrada del usuario
+        System.out.println("What is your name? ");//imprime la linea de texto que le pregunta al usuario su nombre
+        String name = scanner.nextLine();// Guarda la respuesta del usuario a la pregunta de cual es tu nombre
+
+        System.out.println("Hello "+ name);
+
+    }
+}
