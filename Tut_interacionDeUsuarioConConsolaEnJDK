@@ -7,11 +7,14 @@ public class Hello {
 
     public static void main(String[] args){
 
-        Scanner scanner = new Scanner(System.in);// Crea un objeto Scanner para leer la entrada del usuario
-        System.out.println("What is your name? ");//imprime la linea de texto que le pregunta al usuario su nombre
-        String name = scanner.nextLine();// Guarda la respuesta del usuario a la pregunta de cual es tu nombre
+        Scanner scanner = new Scanner(System.in); // Crea un objeto Scanner para leer la entrada del usuario
+        System.out.println("Cual es tu nombre? "); //imprime la linea de texto que le pregunta al usuario su nombre
+        String name = scanner.nextLine();
+        System.out.println("Cual es tu edad? "); // Guarda la respuesta del usuario a la pregunta de cual es tu nombre
 
+        int edad = scanner.nextInt();
         System.out.println("Hello "+ name);
+        System.out.println("Tu tienes: " + edad+" años");
 
     }
 }
