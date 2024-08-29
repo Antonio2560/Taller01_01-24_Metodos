@@ -12,7 +12,7 @@ public class Hello {
         String name = scanner.nextLine();
         System.out.println("Cual es tu edad? "); // Guarda la respuesta del usuario a la pregunta de cual es tu nombre
 
-        int edad = scanner.nextInt();
+        int edad = scanner.nextInt();// nextInt es para leer datos como numeros enteros y nextLine para leer una cadena de texto.
         System.out.println("Hello "+ name);
         System.out.println("Tu tienes: " + edad+" años");
 
