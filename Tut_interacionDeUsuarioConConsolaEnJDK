@@ -1,7 +1,7 @@
 Tutorial para aprender como hacer que el usuario pueda interactuar con la consola.
 
 
-import java.util.Scanner;
+import java.util.Scanner; //Permite la entrada de datos por parte del usuario.
 
 public class Hello {
 
